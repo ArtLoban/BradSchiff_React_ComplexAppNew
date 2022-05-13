@@ -1,4 +1,5 @@
-import react from 'react';
+import React from 'react';
+import {Link} from 'react-router-dom';
 
 function Header() {
   return (
@@ -6,9 +7,9 @@ function Header() {
       <div
         className="container d-flex flex-column flex-md-row align-items-center p-3">
         <h4 className="my-0 mr-md-auto font-weight-normal">
-          <a href="/" className="text-white">
+          <Link to="/" className="text-white">
             ComplexApp
-          </a>
+          </Link>
         </h4>
         <form className="mb-0 pt-2 pt-md-0">
           <div className="row align-items-center">
