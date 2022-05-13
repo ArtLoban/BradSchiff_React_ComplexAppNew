@@ -1,8 +1,9 @@
-import React from 'react';
+import React, {useEffect} from 'react';
+import Page from './Page';
 
 function About() {
   return (
-    <div className="container container--narrow py-md-5">
+    <Page title="About Us">
       <h2>About Us</h2>
       <p className="lead text-muted">Lorem ipsum dolor sit amet consectetur
         adipisicing elit. Corporis dolorum labore quisquam vel id dicta fuga!
@@ -18,7 +19,7 @@ function About() {
         voluptates quisquam possimus tenetur, dicta enim rerum quis, quaerat id
         nobis provident quo dolorum sapiente temporibus facere non repellendus
         consequatur cupiditate!</p>
-    </div>
+    </Page>
   )
 }
 
